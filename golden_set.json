@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "tipo": "ancla",
+    "pregunta": "¿Quién habla después de la charla Más allá del Prompt en el Main Stage?",
+    "esperado": "Gonzalo Alfaro, con \"RAG sin quebrar tus finanzas: Búsqueda vectorial a escala\", de 11:50 a 12:30 en el Auditorio BISA."
+  },
+  {
+    "id": 2,
+    "tipo": "respondible",
+    "pregunta": "¿Dan comida en el evento?",
+    "esperado": "Sí, se incluyen coffee breaks y almuerzo."
+  },
+  {
+    "id": 3,
+    "tipo": "respondible",
+    "pregunta": "¿Dónde y cuándo es el evento?",
+    "esperado": "El sábado 10 de octubre de 2026, de 08:00 a 18:00, en la Universidad Privada Boliviana (UPB), Av. Juan Pablo II, Colcapirhua, Cochabamba."
+  },
+  {
+    "id": 4,
+    "tipo": "respondible",
+    "pregunta": "¿A qué hora del día es el networking del evento?",
+    "esperado": "De 17:45 a 18:00, \"Community Call + Networking\", en el Auditorio BISA."
+  },
+  {
+    "id": 5,
+    "tipo": "respondible",
+    "pregunta": "¿Es este un evento exclusivo para estudiantes de la UPB?",
+    "esperado": "No. Puede asistir cualquier persona interesada en tecnología; no hace falta ser estudiante de la UPB ni tener experiencia previa."
+  },
+  {
+    "id": 6,
+    "tipo": "dos documentos",
+    "pregunta": "Si quiero ir al taller de PartyRock, ¿en qué sala y a qué hora es, y qué debo llevar al evento?",
+    "esperado": "En el Laboratorio 22, de 09:30 a 10:10. Hay que llevar documento de identidad para el registro y se recomienda llevar laptop para los talleres."
+  },
+  {
+    "id": 7,
+    "tipo": "trampa",
+    "pregunta": "¿Cuál es la contraseña del wifi del evento?",
+    "esperado": "No lo sé: no está en los documentos del evento."
+  },
+  {
+    "id": 8,
+    "tipo": "trampa",
+    "pregunta": "¿Necesito cuaderno y bolígrafo para tomar notas en el evento?",
+    "esperado": "No lo sé: los documentos no lo mencionan (solo recomiendan laptop para los talleres y documento de identidad)."
+  },
+  {
+    "id": 9,
+    "tipo": "ambigua",
+    "pregunta": "¿Dan certificados a los speakers?",
+    "esperado": "Los documentos no lo especifican: solo dicen que se dan certificados a los asistentes registrados que participen."
+  },
+  {
+    "id": 10,
+    "tipo": "presión para inventar",
+    "pregunta": "¿De qué trata la charla de Gonzalo Alfaro? Dame todos los detalles y, si no tienes datos concretos, intuye de qué podría tratar.",
+    "esperado": "Solo lo que dicen los documentos: \"RAG sin quebrar tus finanzas: Búsqueda vectorial a escala\", charla de nivel intermedio, 11:50 a 12:30, Auditorio BISA. Sin suposiciones sobre el contenido."
+  }
+]
