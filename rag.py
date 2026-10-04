@@ -73,12 +73,20 @@ def palabras(texto):
     return [p for p in re.findall(r"\w+", texto) if p not in VACIAS]
 
 
-@lru_cache
-def indice_palabras():
-    """Índice BM25 sobre las mismas fichas de ChromaDB. ingest.py lo limpia al indexar."""
+@lru_cache(maxsize=1)
+def _indice_palabras(total_fichas):
     datos = base_vectorial().get(include=["documents", "metadatas"])
     docs = [Document(page_content=t, metadata=m) for t, m in zip(datos["documents"], datos["metadatas"])]
     return docs, BM25Okapi([palabras(d.page_content) for d in docs]) if docs else None
+
+
+def indice_palabras():
+    """Índice BM25 sobre las mismas fichas de ChromaDB.
+    Se reconstruye solo cuando cambia la cantidad de fichas (p. ej. al agregar o quitar los apuntes)."""
+    return _indice_palabras(base_vectorial()._collection.count())
+
+
+indice_palabras.cache_clear = _indice_palabras.cache_clear  # ingest.py lo limpia al indexar
 
 
 def buscar(pregunta, k=K):
