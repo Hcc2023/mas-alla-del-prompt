@@ -15,7 +15,7 @@ from rag import (MODELO_EMBEDDINGS, MODELO_LLM, base_vectorial, describir, embed
 # Preguntas precargadas: en el escenario no se escribe en vivo.
 PREGUNTAS = {
     # Con formato exigido: sin RAG inventa un nombre y un título; con RAG responde Gonzalo + título real.
-    "🎯 ¿Quién sigue?": ("¿Quién habla después de la charla Más allá del Prompt en el Main Stage? "
+    "🎯 ¿Quién sigue?": ("¿Quién habla después del almuerzo en el Main Stage? "
                         "Solo respóndeme con el nombre del speaker y el título de su charla"),
     "🍽️ ¿Hay comida?": "¿Dan comida en el evento?",
     "📜 Certificados": "¿A quiénes dan certificados y en qué idioma son las sesiones?",

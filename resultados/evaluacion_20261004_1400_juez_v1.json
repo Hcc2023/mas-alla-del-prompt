@@ -1,0 +1,227 @@
+{
+  "generador": "qwen3:4b-instruct",
+  "juez": "gemma3:4b",
+  "version_juez": 1,
+  "casos": [
+    {
+      "id": 1,
+      "tipo": "ancla",
+      "pregunta": "¿Quién habla después de la charla Más allá del Prompt en el Main Stage?",
+      "esperado": "Gonzalo Alfaro, con \"RAG sin quebrar tus finanzas: Búsqueda vectorial a escala\", de 11:50 a 12:30 en el Auditorio BISA.",
+      "respuesta": "Gonzalo Alfaro habla después de la charla \"Más allá del Prompt: Construyendo sistemas RAG para que tu IA deje de alucinar\" con la sesión \"RAG sin quebrar tus finanzas: Búsqueda vectorial a escala\" de 11:50 a 12:30 [1].",
+      "contexto": "[1] (fuente: agenda_auditorio_bisa.md)\n### 11:10–11:50 · Más allá del Prompt: Construyendo sistemas RAG para que tu IA deje de alucinar\n- Sala: Auditorio BISA (Main Stage, escenario principal)\n- Horario: 11:10–11:50, sábado 10 de octubre de 2026\n- Tipo: Charla de nivel intermedio\n- Speaker: Heberht Castellon\n- Antes en esta sala: \"Community Break\" (10:50–11:10)\n- Después en esta sala: \"RAG sin quebrar tus finanzas: Búsqueda vectorial a escala\" de Gonzalo Alfaro (11:50–12:30)\n\n[2] (fuente: agenda_auditorio_bisa.md)\n### 10:50–11:10 · Community Break\n- Sala: Auditorio BISA (Main Stage, escenario principal)\n- Horario: 10:50–11:10, sábado 10 de octubre de 2026\n- Tipo: Pausa\n- Antes en esta sala: \"Sin datos no hay IA: construyendo un pipeline ETL serverless en AWS\" de Silvana Gutierrez y Micaela Belen Challapa Montaño (10:10–10:50)\n- Después en esta sala: \"Más allá del Prompt: Construyendo sistemas RAG para que tu IA deje de alucinar\" de Heberht Castellon (11:10–11:50)\n\n[3] (fuente: apuntes_heberht.pdf, pág. 1)\nApuntes de Heberht Castellon\nCharla \"Más allá del Prompt: Construyendo sistemas RAG para que tu IA deje de alucinar\" ·\nAWS Student Community Day Cochabamba 2026 · sábado 10 de octubre de 2026, 11:10–11:50,\nAuditorio BISA (Main Stage)\nCódigo de la demo\nEl código completo de la charla de Heberht Castellon (la demo de RAG local) se puede\ndescargar del repositorio en GitHub: https://github.com/Hcc2023/mas-alla-del-prompt\nContacto\nHeberht Castellon, QA Engineer. LinkedIn: linkedin.com/in/heberht-castellón-profesionalqa\nTres ideas para llevarse\n 1. Un LLM sin RAG responde de memoria; con RAG responde a libro abierto y cita su\nfuente.\n\n[4] (fuente: agenda_auditorio_bisa.md)\n### 11:50–12:30 · RAG sin quebrar tus finanzas: Búsqueda vectorial a escala\n- Sala: Auditorio BISA (Main Stage, escenario principal)\n- Horario: 11:50–12:30, sábado 10 de octubre de 2026\n- Tipo: Charla de nivel intermedio\n- Speaker: Gonzalo Alfaro\n- Antes en esta sala: \"Más allá del Prompt: Construyendo sistemas RAG para que tu IA deje de alucinar\" de Heberht Castellon (11:10–11:50)\n- Después en esta sala: \"Building Your Career Before Graduation\" de Silvana Gutierrez, Gonzalo Alfaro, Carlos Isaac Jaldin Benavides y Abel Archila (moderador: Gabriel Olarte) (12:30–13:00)\n\n[5] (fuente: agenda_auditorio_bisa.md)\n### 15:40–16:20 · No estaba lista, pero dije que sí: de estudiante a Solution Architect\n- Sala: Auditorio BISA (Main Stage, escenario principal)\n- Horario: 15:40–16:20, sábado 10 de octubre de 2026\n- Tipo: Charla de nivel introductorio\n- Speaker: Sara Salazar Paredes\n- Antes en esta sala: \"De la carpeta de apuntes al 100: un agente de IA que arma tu exposición\" de Carlos Isaac Jaldin Benavides (14:00–14:40)\n- Después en esta sala: \"Acto cultural\" (17:00–17:30)",
+      "fuentes": [
+        "agenda_auditorio_bisa.md",
+        "agenda_auditorio_bisa.md",
+        "apuntes_heberht.pdf, pág. 1",
+        "agenda_auditorio_bisa.md",
+        "agenda_auditorio_bisa.md"
+      ],
+      "seg_respuesta": 6.7,
+      "relevancia": 5,
+      "fidelidad": 5,
+      "correccion": 5,
+      "motivo": "La respuesta extrae la información correcta de las fichas proporcionadas, respondiendo directamente a la pregunta y citando la fuente.",
+      "aprobada": true,
+      "seg_juez": 18.6
+    },
+    {
+      "id": 2,
+      "tipo": "respondible",
+      "pregunta": "¿Dan comida en el evento?",
+      "esperado": "Sí, se incluyen coffee breaks y almuerzo.",
+      "respuesta": "Sí, se incluyen coffee breaks y almuerzo. [1]",
+      "contexto": "[1] (fuente: preguntas_frecuentes.md)\n## ¿Hay comida?\nSí. Se incluyen coffee breaks y almuerzo.\n\n## ¿Dan certificados?\nSí, a los asistentes registrados que participen.\n\n## ¿Puedo cambiarme de track durante el día?\nSí. Los asistentes pueden moverse libremente entre todas las opciones.\n\n## ¿Tengo que elegir un track al inscribirme?\nNo. El día es flexible y puedes elegir la actividad en cada bloque.\n\n[2] (fuente: preguntas_frecuentes.md)\n# Preguntas frecuentes del AWS Student Community Day Cochabamba 2026\n\nFuente: https://studentcommunity.day/ (consultada el 3 de octubre de 2026).\n\n## ¿Qué es el Student Community Day?\nEs un evento de un día, gratuito y liderado por estudiantes, respaldado por AWS.\n\n## ¿Quién puede asistir?\nCualquier persona interesada en tecnología. No hace falta experiencia previa ni ser estudiante de la UPB.\n\n## ¿Es gratis?\nSí, la entrada es gratuita, pero el registro es obligatorio.\n\n## ¿En qué idioma son las sesiones?\nLa mayoría en español. Algunas sesiones son en inglés y están marcadas en la agenda.\n\n## ¿Hay comida?\nSí. Se incluyen coffee breaks y almuerzo.\n\n[3] (fuente: informacion_general.md)\n## Resumen del día\n- 08:00: registro y Community Expo.\n- 09:30: comienzan las sesiones presenciales y virtuales.\n- 12:30: panel de carrera.\n- 13:00: almuerzo y Community Expo.\n- 16:00: transición cultural.\n- 17:00: acto cultural y cierre.\n\n## Salas del evento\n- Auditorio BISA: Main Stage o escenario principal.\n- Salón Gessell: escenario secundario.\n- Arquitectura 1 y Diseño 1: charlas especializadas.\n- Laboratorio 29: modalidad BYOD (trae tu propia laptop).\n- Laboratorio 22: laboratorio con computadoras.\n- Virtual: sesiones transmitidas en línea.\n\n[4] (fuente: informacion_general.md)\n## Registro e inscripción\n- La entrada es gratuita.\n- El registro es obligatorio y el cupo es limitado.\n- La inscripción se hace en la plataforma Luma: https://luma.com/r65j1ukn\n- Qué llevar: documento de identidad para el registro; se recomienda llevar laptop para los talleres.\n\n## Tracks o áreas de contenido\nEl evento tiene tres tracks técnicos en paralelo y dos laboratorios prácticos:\n1. Inteligencia Artificial: machine learning, agentes, IA generativa y MLOps.\n2. Cloud: arquitectura, serverless, DevOps y observabilidad.\n3. Ciberseguridad: AppSec, seguridad en la nube, red team e identidad.\n4. Laboratorio 1: práctica guiada.\n5. Laboratorio 2: práctica guiada en paralelo.\n\n[5] (fuente: informacion_general.md)\n## Convocatoria de speakers\n- Las propuestas se recibieron en Sessionize: https://sessionize.com/aws-student-community-day-cochabamba-bolivia\n- Formato de sesiones de 40 minutos; todos los niveles bienvenidos, sin necesidad de experiencia previa como speaker.\n\n## Patrocinio\n- Hay cuatro paquetes de patrocinio desde 300 dólares (USD), con presencia de marca, stands en la feria de talento y acceso a estudiantes de más de 12 universidades.\n\n## Contacto y redes\n- Correo: sbgcbba@upb.edu\n- Instagram: @aws_sbg_bolivia y @aws_upb_cbba\n- También hay una comunidad de WhatsApp (enlace en la página del evento).",
+      "fuentes": [
+        "preguntas_frecuentes.md",
+        "preguntas_frecuentes.md",
+        "informacion_general.md",
+        "informacion_general.md",
+        "informacion_general.md"
+      ],
+      "seg_respuesta": 0.9,
+      "relevancia": 5,
+      "fidelidad": 5,
+      "correccion": 5,
+      "motivo": "La ficha [1] contiene la respuesta directa a la pregunta, confirmando la disponibilidad de comida (coffee breaks y almuerzo).",
+      "aprobada": true,
+      "seg_juez": 6.0
+    },
+    {
+      "id": 3,
+      "tipo": "respondible",
+      "pregunta": "¿Dónde y cuándo es el evento?",
+      "esperado": "El sábado 10 de octubre de 2026, de 08:00 a 18:00, en la Universidad Privada Boliviana (UPB), Av. Juan Pablo II, Colcapirhua, Cochabamba.",
+      "respuesta": "El evento se realiza el sábado 10 de octubre de 2026, de 08:00 a 18:00, en la Universidad Privada Boliviana (UPB), Av. Juan Pablo II, Colcapirhua, Cochabamba, Bolivia [2].",
+      "contexto": "[1] (fuente: informacion_general.md)\n## Resumen del día\n- 08:00: registro y Community Expo.\n- 09:30: comienzan las sesiones presenciales y virtuales.\n- 12:30: panel de carrera.\n- 13:00: almuerzo y Community Expo.\n- 16:00: transición cultural.\n- 17:00: acto cultural y cierre.\n\n## Salas del evento\n- Auditorio BISA: Main Stage o escenario principal.\n- Salón Gessell: escenario secundario.\n- Arquitectura 1 y Diseño 1: charlas especializadas.\n- Laboratorio 29: modalidad BYOD (trae tu propia laptop).\n- Laboratorio 22: laboratorio con computadoras.\n- Virtual: sesiones transmitidas en línea.\n\n[2] (fuente: informacion_general.md)\n# Información general del AWS Student Community Day Cochabamba 2026\n\nFuente: https://studentcommunity.day/ (consultada el 3 de octubre de 2026).\n\n## Fecha, horario y lugar\n- Evento: AWS Student Community Day Cochabamba 2026.\n- Fecha: sábado 10 de octubre de 2026.\n- Horario: de 08:00 a 18:00.\n- Lugar: Universidad Privada Boliviana (UPB), Av. Juan Pablo II, Colcapirhua, Cochabamba, Bolivia.\n\n## Organizadores\n- Organiza el AWS Student Builder Group de la UPB Cochabamba.\n- La Universidad Privada Boliviana (UPB) es la sede anfitriona.\n- El evento cuenta con el respaldo de Amazon Web Services (AWS).\n\n[3] (fuente: informacion_general.md)\n## Registro e inscripción\n- La entrada es gratuita.\n- El registro es obligatorio y el cupo es limitado.\n- La inscripción se hace en la plataforma Luma: https://luma.com/r65j1ukn\n- Qué llevar: documento de identidad para el registro; se recomienda llevar laptop para los talleres.\n\n## Tracks o áreas de contenido\nEl evento tiene tres tracks técnicos en paralelo y dos laboratorios prácticos:\n1. Inteligencia Artificial: machine learning, agentes, IA generativa y MLOps.\n2. Cloud: arquitectura, serverless, DevOps y observabilidad.\n3. Ciberseguridad: AppSec, seguridad en la nube, red team e identidad.\n4. Laboratorio 1: práctica guiada.\n5. Laboratorio 2: práctica guiada en paralelo.\n\n[4] (fuente: agenda_salon_gessell.md)\n### 15:40–16:20 · Cuando tu servidor desaparece\n- Sala: Salón Gessell (escenario secundario)\n- Horario: 15:40–16:20, sábado 10 de octubre de 2026\n- Tipo: Charla de nivel intermedio\n- Speaker: Pablo Daniel Noya Quiroz\n- Antes en esta sala: \"AI-Ops deploying your agent with behavioral metrics\" de Adrian Acarapi (14:40–15:20)\n- Después en esta sala: nada, es la última actividad de la sala\n\n[5] (fuente: agenda_auditorio_bisa.md)\n### 17:45–18:00 · Community Call + Networking\n- Sala: Auditorio BISA (Main Stage, escenario principal)\n- Horario: 17:45–18:00, sábado 10 de octubre de 2026\n- Tipo: Networking\n- Antes en esta sala: \"Closing Session + Community Recognition\" (17:30–17:45)\n- Después en esta sala: nada, es la última actividad de la sala",
+      "fuentes": [
+        "informacion_general.md",
+        "informacion_general.md",
+        "informacion_general.md",
+        "agenda_salon_gessell.md",
+        "agenda_auditorio_bisa.md"
+      ],
+      "seg_respuesta": 3.4,
+      "relevancia": 5,
+      "fidelidad": 5,
+      "correccion": 5,
+      "motivo": "La respuesta del sistema contiene toda la información necesaria para responder a la pregunta, extraída de las fichas relevantes. Es precisa y completa.",
+      "aprobada": true,
+      "seg_juez": 6.2
+    },
+    {
+      "id": 4,
+      "tipo": "respondible",
+      "pregunta": "¿A qué hora del día es el networking del evento?",
+      "esperado": "De 17:45 a 18:00, \"Community Call + Networking\", en el Auditorio BISA.",
+      "respuesta": "El networking del evento es a las 17:45–18:00. [2]",
+      "contexto": "[1] (fuente: informacion_general.md)\n## Resumen del día\n- 08:00: registro y Community Expo.\n- 09:30: comienzan las sesiones presenciales y virtuales.\n- 12:30: panel de carrera.\n- 13:00: almuerzo y Community Expo.\n- 16:00: transición cultural.\n- 17:00: acto cultural y cierre.\n\n## Salas del evento\n- Auditorio BISA: Main Stage o escenario principal.\n- Salón Gessell: escenario secundario.\n- Arquitectura 1 y Diseño 1: charlas especializadas.\n- Laboratorio 29: modalidad BYOD (trae tu propia laptop).\n- Laboratorio 22: laboratorio con computadoras.\n- Virtual: sesiones transmitidas en línea.\n\n[2] (fuente: agenda_auditorio_bisa.md)\n### 17:45–18:00 · Community Call + Networking\n- Sala: Auditorio BISA (Main Stage, escenario principal)\n- Horario: 17:45–18:00, sábado 10 de octubre de 2026\n- Tipo: Networking\n- Antes en esta sala: \"Closing Session + Community Recognition\" (17:30–17:45)\n- Después en esta sala: nada, es la última actividad de la sala\n\n[3] (fuente: agenda_otras_salas.md)\n### 14:00–14:40 · Networking para IA: El protocolo que mueve datos masivos\n- Sala: Laboratorio 22 (laboratorio de computadoras)\n- Horario: 14:00–14:40, sábado 10 de octubre de 2026\n- Tipo: Charla de nivel intermedio\n- Speaker: Abel Archila\n- Antes en esta sala: \"De programar con IA a construir con agentes\" de Rodrigo Torrico (10:10–10:50)\n- Después en esta sala: nada, es la última actividad de la sala\n\n[4] (fuente: agenda_auditorio_bisa.md)\n### 17:00–17:30 · Acto cultural\n- Sala: Auditorio BISA (Main Stage, escenario principal)\n- Horario: 17:00–17:30, sábado 10 de octubre de 2026\n- Tipo: Keynote\n- Antes en esta sala: \"No estaba lista, pero dije que sí: de estudiante a Solution Architect\" de Sara Salazar Paredes (15:40–16:20)\n- Después en esta sala: \"Closing Session + Community Recognition\" (17:30–17:45)\n\n### 17:30–17:45 · Closing Session + Community Recognition\n- Sala: Auditorio BISA (Main Stage, escenario principal)\n- Horario: 17:30–17:45, sábado 10 de octubre de 2026\n- Tipo: Cierre\n- Antes en esta sala: \"Acto cultural\" (17:00–17:30)\n- Después en esta sala: \"Community Call + Networking\" (17:45–18:00)\n\n[5] (fuente: preguntas_frecuentes.md)\n# Preguntas frecuentes del AWS Student Community Day Cochabamba 2026\n\nFuente: https://studentcommunity.day/ (consultada el 3 de octubre de 2026).\n\n## ¿Qué es el Student Community Day?\nEs un evento de un día, gratuito y liderado por estudiantes, respaldado por AWS.\n\n## ¿Quién puede asistir?\nCualquier persona interesada en tecnología. No hace falta experiencia previa ni ser estudiante de la UPB.\n\n## ¿Es gratis?\nSí, la entrada es gratuita, pero el registro es obligatorio.\n\n## ¿En qué idioma son las sesiones?\nLa mayoría en español. Algunas sesiones son en inglés y están marcadas en la agenda.\n\n## ¿Hay comida?\nSí. Se incluyen coffee breaks y almuerzo.",
+      "fuentes": [
+        "informacion_general.md",
+        "agenda_auditorio_bisa.md",
+        "agenda_otras_salas.md",
+        "agenda_auditorio_bisa.md",
+        "preguntas_frecuentes.md"
+      ],
+      "seg_respuesta": 1.8,
+      "relevancia": 5,
+      "fidelidad": 5,
+      "correccion": 5,
+      "motivo": "La ficha [2] proporciona la información exacta solicitada sobre la hora y el tipo de networking.",
+      "aprobada": true,
+      "seg_juez": 5.6
+    },
+    {
+      "id": 5,
+      "tipo": "respondible",
+      "pregunta": "¿Es este un evento exclusivo para estudiantes de la UPB?",
+      "esperado": "No. Puede asistir cualquier persona interesada en tecnología; no hace falta ser estudiante de la UPB ni tener experiencia previa.",
+      "respuesta": "No, el evento es para cualquier persona interesada en tecnología, sin necesidad de ser estudiante de la UPB [1].",
+      "contexto": "[1] (fuente: preguntas_frecuentes.md)\n# Preguntas frecuentes del AWS Student Community Day Cochabamba 2026\n\nFuente: https://studentcommunity.day/ (consultada el 3 de octubre de 2026).\n\n## ¿Qué es el Student Community Day?\nEs un evento de un día, gratuito y liderado por estudiantes, respaldado por AWS.\n\n## ¿Quién puede asistir?\nCualquier persona interesada en tecnología. No hace falta experiencia previa ni ser estudiante de la UPB.\n\n## ¿Es gratis?\nSí, la entrada es gratuita, pero el registro es obligatorio.\n\n## ¿En qué idioma son las sesiones?\nLa mayoría en español. Algunas sesiones son en inglés y están marcadas en la agenda.\n\n## ¿Hay comida?\nSí. Se incluyen coffee breaks y almuerzo.\n\n[2] (fuente: informacion_general.md)\n## Convocatoria de speakers\n- Las propuestas se recibieron en Sessionize: https://sessionize.com/aws-student-community-day-cochabamba-bolivia\n- Formato de sesiones de 40 minutos; todos los niveles bienvenidos, sin necesidad de experiencia previa como speaker.\n\n## Patrocinio\n- Hay cuatro paquetes de patrocinio desde 300 dólares (USD), con presencia de marca, stands en la feria de talento y acceso a estudiantes de más de 12 universidades.\n\n## Contacto y redes\n- Correo: sbgcbba@upb.edu\n- Instagram: @aws_sbg_bolivia y @aws_upb_cbba\n- También hay una comunidad de WhatsApp (enlace en la página del evento).\n\n[3] (fuente: informacion_general.md)\n# Información general del AWS Student Community Day Cochabamba 2026\n\nFuente: https://studentcommunity.day/ (consultada el 3 de octubre de 2026).\n\n## Fecha, horario y lugar\n- Evento: AWS Student Community Day Cochabamba 2026.\n- Fecha: sábado 10 de octubre de 2026.\n- Horario: de 08:00 a 18:00.\n- Lugar: Universidad Privada Boliviana (UPB), Av. Juan Pablo II, Colcapirhua, Cochabamba, Bolivia.\n\n## Organizadores\n- Organiza el AWS Student Builder Group de la UPB Cochabamba.\n- La Universidad Privada Boliviana (UPB) es la sede anfitriona.\n- El evento cuenta con el respaldo de Amazon Web Services (AWS).\n\n[4] (fuente: informacion_general.md)\n## Registro e inscripción\n- La entrada es gratuita.\n- El registro es obligatorio y el cupo es limitado.\n- La inscripción se hace en la plataforma Luma: https://luma.com/r65j1ukn\n- Qué llevar: documento de identidad para el registro; se recomienda llevar laptop para los talleres.\n\n## Tracks o áreas de contenido\nEl evento tiene tres tracks técnicos en paralelo y dos laboratorios prácticos:\n1. Inteligencia Artificial: machine learning, agentes, IA generativa y MLOps.\n2. Cloud: arquitectura, serverless, DevOps y observabilidad.\n3. Ciberseguridad: AppSec, seguridad en la nube, red team e identidad.\n4. Laboratorio 1: práctica guiada.\n5. Laboratorio 2: práctica guiada en paralelo.\n\n[5] (fuente: informacion_general.md)\n## Resumen del día\n- 08:00: registro y Community Expo.\n- 09:30: comienzan las sesiones presenciales y virtuales.\n- 12:30: panel de carrera.\n- 13:00: almuerzo y Community Expo.\n- 16:00: transición cultural.\n- 17:00: acto cultural y cierre.\n\n## Salas del evento\n- Auditorio BISA: Main Stage o escenario principal.\n- Salón Gessell: escenario secundario.\n- Arquitectura 1 y Diseño 1: charlas especializadas.\n- Laboratorio 29: modalidad BYOD (trae tu propia laptop).\n- Laboratorio 22: laboratorio con computadoras.\n- Virtual: sesiones transmitidas en línea.",
+      "fuentes": [
+        "preguntas_frecuentes.md",
+        "informacion_general.md",
+        "informacion_general.md",
+        "informacion_general.md",
+        "informacion_general.md"
+      ],
+      "seg_respuesta": 2.1,
+      "relevancia": 5,
+      "fidelidad": 5,
+      "correccion": 5,
+      "motivo": "La respuesta del sistema es completamente relevante, fiel y correcta, basándose directamente en la información proporcionada en la ficha [1].",
+      "aprobada": true,
+      "seg_juez": 6.2
+    },
+    {
+      "id": 6,
+      "tipo": "dos documentos",
+      "pregunta": "Si quiero ir al taller de PartyRock, ¿en qué sala y a qué hora es, y qué debo llevar al evento?",
+      "esperado": "En el Laboratorio 22, de 09:30 a 10:10. Hay que llevar documento de identidad para el registro y se recomienda llevar laptop para los talleres.",
+      "respuesta": "El taller de PartyRock es \"Construye tu primera app de IA con AWS + PartyRock\", se realiza en la Sala Laboratorio 22 de 09:30 a 10:10, sábado 10 de octubre de 2026. Debes llevar documento de identidad y se recomienda llevar laptop [1].",
+      "contexto": "[1] (fuente: agenda_otras_salas.md)\n### 09:30–10:10 · Construye tu primera app de IA con AWS + PartyRock\n- Sala: Laboratorio 22 (laboratorio de computadoras)\n- Horario: 09:30–10:10, sábado 10 de octubre de 2026\n- Tipo: Taller de nivel introductorio\n- Speaker: Marlene Choque Perez y Araceli Ivana Challapa Montaño\n- Antes en esta sala: nada, es la primera actividad de la sala\n- Después en esta sala: \"De programar con IA a construir con agentes\" de Rodrigo Torrico (10:10–10:50)\n\n[2] (fuente: informacion_general.md)\n## Registro e inscripción\n- La entrada es gratuita.\n- El registro es obligatorio y el cupo es limitado.\n- La inscripción se hace en la plataforma Luma: https://luma.com/r65j1ukn\n- Qué llevar: documento de identidad para el registro; se recomienda llevar laptop para los talleres.\n\n## Tracks o áreas de contenido\nEl evento tiene tres tracks técnicos en paralelo y dos laboratorios prácticos:\n1. Inteligencia Artificial: machine learning, agentes, IA generativa y MLOps.\n2. Cloud: arquitectura, serverless, DevOps y observabilidad.\n3. Ciberseguridad: AppSec, seguridad en la nube, red team e identidad.\n4. Laboratorio 1: práctica guiada.\n5. Laboratorio 2: práctica guiada en paralelo.\n\n[3] (fuente: agenda_otras_salas.md)\n### 10:10–10:50 · De programar con IA a construir con agentes\n- Sala: Laboratorio 22 (laboratorio de computadoras)\n- Horario: 10:10–10:50, sábado 10 de octubre de 2026\n- Tipo: Charla de nivel intermedio\n- Speaker: Rodrigo Torrico\n- Antes en esta sala: \"Construye tu primera app de IA con AWS + PartyRock\" de Marlene Choque Perez y Araceli Ivana Challapa Montaño (09:30–10:10)\n- Después en esta sala: \"Networking para IA: El protocolo que mueve datos masivos\" de Abel Archila (14:00–14:40)\n\n[4] (fuente: preguntas_frecuentes.md)\n## ¿Hay comida?\nSí. Se incluyen coffee breaks y almuerzo.\n\n## ¿Dan certificados?\nSí, a los asistentes registrados que participen.\n\n## ¿Puedo cambiarme de track durante el día?\nSí. Los asistentes pueden moverse libremente entre todas las opciones.\n\n## ¿Tengo que elegir un track al inscribirme?\nNo. El día es flexible y puedes elegir la actividad en cada bloque.\n\n[5] (fuente: agenda_salon_gessell.md)\n### 10:10–10:50 · De la idea al código: construyamos una aplicación con AI-DLC\n- Sala: Salón Gessell (escenario secundario)\n- Horario: 10:10–10:50, sábado 10 de octubre de 2026\n- Tipo: Taller de nivel introductorio\n- Speaker: Freddy Aguilar Rojas y Natalia Alfaro\n- Antes en esta sala: \"Building Autonomous AI on AWS: From Bedrock to Real-World Agent Systems\" de Carlos Olivera (09:30–10:10)\n- Después en esta sala: \"Inteligencia Artificial, Machine Learning y Generative AI\" de Kaya Platzer (11:10–11:50)",
+      "fuentes": [
+        "agenda_otras_salas.md",
+        "informacion_general.md",
+        "agenda_otras_salas.md",
+        "preguntas_frecuentes.md",
+        "agenda_salon_gessell.md"
+      ],
+      "seg_respuesta": 4.2,
+      "relevancia": 5,
+      "fidelidad": 5,
+      "correccion": 5,
+      "motivo": "La respuesta extrae toda la información relevante de las fichas proporcionadas y la presenta de forma concisa y correcta.",
+      "aprobada": true,
+      "seg_juez": 5.9
+    },
+    {
+      "id": 7,
+      "tipo": "trampa",
+      "pregunta": "¿Cuál es la contraseña del wifi del evento?",
+      "esperado": "No lo sé: no está en los documentos del evento.",
+      "respuesta": "No lo sé: eso no está en los documentos del evento. [1]",
+      "contexto": "[1] (fuente: informacion_general.md)\n## Resumen del día\n- 08:00: registro y Community Expo.\n- 09:30: comienzan las sesiones presenciales y virtuales.\n- 12:30: panel de carrera.\n- 13:00: almuerzo y Community Expo.\n- 16:00: transición cultural.\n- 17:00: acto cultural y cierre.\n\n## Salas del evento\n- Auditorio BISA: Main Stage o escenario principal.\n- Salón Gessell: escenario secundario.\n- Arquitectura 1 y Diseño 1: charlas especializadas.\n- Laboratorio 29: modalidad BYOD (trae tu propia laptop).\n- Laboratorio 22: laboratorio con computadoras.\n- Virtual: sesiones transmitidas en línea.\n\n[2] (fuente: informacion_general.md)\n## Registro e inscripción\n- La entrada es gratuita.\n- El registro es obligatorio y el cupo es limitado.\n- La inscripción se hace en la plataforma Luma: https://luma.com/r65j1ukn\n- Qué llevar: documento de identidad para el registro; se recomienda llevar laptop para los talleres.\n\n## Tracks o áreas de contenido\nEl evento tiene tres tracks técnicos en paralelo y dos laboratorios prácticos:\n1. Inteligencia Artificial: machine learning, agentes, IA generativa y MLOps.\n2. Cloud: arquitectura, serverless, DevOps y observabilidad.\n3. Ciberseguridad: AppSec, seguridad en la nube, red team e identidad.\n4. Laboratorio 1: práctica guiada.\n5. Laboratorio 2: práctica guiada en paralelo.\n\n[3] (fuente: informacion_general.md)\n## Convocatoria de speakers\n- Las propuestas se recibieron en Sessionize: https://sessionize.com/aws-student-community-day-cochabamba-bolivia\n- Formato de sesiones de 40 minutos; todos los niveles bienvenidos, sin necesidad de experiencia previa como speaker.\n\n## Patrocinio\n- Hay cuatro paquetes de patrocinio desde 300 dólares (USD), con presencia de marca, stands en la feria de talento y acceso a estudiantes de más de 12 universidades.\n\n## Contacto y redes\n- Correo: sbgcbba@upb.edu\n- Instagram: @aws_sbg_bolivia y @aws_upb_cbba\n- También hay una comunidad de WhatsApp (enlace en la página del evento).\n\n[4] (fuente: preguntas_frecuentes.md)\n# Preguntas frecuentes del AWS Student Community Day Cochabamba 2026\n\nFuente: https://studentcommunity.day/ (consultada el 3 de octubre de 2026).\n\n## ¿Qué es el Student Community Day?\nEs un evento de un día, gratuito y liderado por estudiantes, respaldado por AWS.\n\n## ¿Quién puede asistir?\nCualquier persona interesada en tecnología. No hace falta experiencia previa ni ser estudiante de la UPB.\n\n## ¿Es gratis?\nSí, la entrada es gratuita, pero el registro es obligatorio.\n\n## ¿En qué idioma son las sesiones?\nLa mayoría en español. Algunas sesiones son en inglés y están marcadas en la agenda.\n\n## ¿Hay comida?\nSí. Se incluyen coffee breaks y almuerzo.\n\n[5] (fuente: informacion_general.md)\n# Información general del AWS Student Community Day Cochabamba 2026\n\nFuente: https://studentcommunity.day/ (consultada el 3 de octubre de 2026).\n\n## Fecha, horario y lugar\n- Evento: AWS Student Community Day Cochabamba 2026.\n- Fecha: sábado 10 de octubre de 2026.\n- Horario: de 08:00 a 18:00.\n- Lugar: Universidad Privada Boliviana (UPB), Av. Juan Pablo II, Colcapirhua, Cochabamba, Bolivia.\n\n## Organizadores\n- Organiza el AWS Student Builder Group de la UPB Cochabamba.\n- La Universidad Privada Boliviana (UPB) es la sede anfitriona.\n- El evento cuenta con el respaldo de Amazon Web Services (AWS).",
+      "fuentes": [
+        "informacion_general.md",
+        "informacion_general.md",
+        "informacion_general.md",
+        "preguntas_frecuentes.md",
+        "informacion_general.md"
+      ],
+      "seg_respuesta": 1.3,
+      "relevancia": 1,
+      "fidelidad": 5,
+      "correccion": 5,
+      "motivo": "Las fichas recuperadas indican claramente que la información sobre la contraseña del wifi no está disponible en los documentos del evento.",
+      "aprobada": false,
+      "seg_juez": 6.0
+    },
+    {
+      "id": 8,
+      "tipo": "trampa",
+      "pregunta": "¿Necesito cuaderno y bolígrafo para tomar notas en el evento?",
+      "esperado": "No lo sé: los documentos no lo mencionan (solo recomiendan laptop para los talleres y documento de identidad).",
+      "respuesta": "No lo sé: eso no está en los documentos del evento. [1]",
+      "contexto": "[1] (fuente: informacion_general.md)\n## Resumen del día\n- 08:00: registro y Community Expo.\n- 09:30: comienzan las sesiones presenciales y virtuales.\n- 12:30: panel de carrera.\n- 13:00: almuerzo y Community Expo.\n- 16:00: transición cultural.\n- 17:00: acto cultural y cierre.\n\n## Salas del evento\n- Auditorio BISA: Main Stage o escenario principal.\n- Salón Gessell: escenario secundario.\n- Arquitectura 1 y Diseño 1: charlas especializadas.\n- Laboratorio 29: modalidad BYOD (trae tu propia laptop).\n- Laboratorio 22: laboratorio con computadoras.\n- Virtual: sesiones transmitidas en línea.\n\n[2] (fuente: informacion_general.md)\n## Registro e inscripción\n- La entrada es gratuita.\n- El registro es obligatorio y el cupo es limitado.\n- La inscripción se hace en la plataforma Luma: https://luma.com/r65j1ukn\n- Qué llevar: documento de identidad para el registro; se recomienda llevar laptop para los talleres.\n\n## Tracks o áreas de contenido\nEl evento tiene tres tracks técnicos en paralelo y dos laboratorios prácticos:\n1. Inteligencia Artificial: machine learning, agentes, IA generativa y MLOps.\n2. Cloud: arquitectura, serverless, DevOps y observabilidad.\n3. Ciberseguridad: AppSec, seguridad en la nube, red team e identidad.\n4. Laboratorio 1: práctica guiada.\n5. Laboratorio 2: práctica guiada en paralelo.\n\n[3] (fuente: informacion_general.md)\n## Convocatoria de speakers\n- Las propuestas se recibieron en Sessionize: https://sessionize.com/aws-student-community-day-cochabamba-bolivia\n- Formato de sesiones de 40 minutos; todos los niveles bienvenidos, sin necesidad de experiencia previa como speaker.\n\n## Patrocinio\n- Hay cuatro paquetes de patrocinio desde 300 dólares (USD), con presencia de marca, stands en la feria de talento y acceso a estudiantes de más de 12 universidades.\n\n## Contacto y redes\n- Correo: sbgcbba@upb.edu\n- Instagram: @aws_sbg_bolivia y @aws_upb_cbba\n- También hay una comunidad de WhatsApp (enlace en la página del evento).\n\n[4] (fuente: preguntas_frecuentes.md)\n# Preguntas frecuentes del AWS Student Community Day Cochabamba 2026\n\nFuente: https://studentcommunity.day/ (consultada el 3 de octubre de 2026).\n\n## ¿Qué es el Student Community Day?\nEs un evento de un día, gratuito y liderado por estudiantes, respaldado por AWS.\n\n## ¿Quién puede asistir?\nCualquier persona interesada en tecnología. No hace falta experiencia previa ni ser estudiante de la UPB.\n\n## ¿Es gratis?\nSí, la entrada es gratuita, pero el registro es obligatorio.\n\n## ¿En qué idioma son las sesiones?\nLa mayoría en español. Algunas sesiones son en inglés y están marcadas en la agenda.\n\n## ¿Hay comida?\nSí. Se incluyen coffee breaks y almuerzo.\n\n[5] (fuente: preguntas_frecuentes.md)\n## ¿Hay comida?\nSí. Se incluyen coffee breaks y almuerzo.\n\n## ¿Dan certificados?\nSí, a los asistentes registrados que participen.\n\n## ¿Puedo cambiarme de track durante el día?\nSí. Los asistentes pueden moverse libremente entre todas las opciones.\n\n## ¿Tengo que elegir un track al inscribirme?\nNo. El día es flexible y puedes elegir la actividad en cada bloque.",
+      "fuentes": [
+        "informacion_general.md",
+        "informacion_general.md",
+        "informacion_general.md",
+        "preguntas_frecuentes.md",
+        "preguntas_frecuentes.md"
+      ],
+      "seg_respuesta": 0.9,
+      "relevancia": 1,
+      "fidelidad": 1,
+      "correccion": 1,
+      "motivo": "Las fichas recuperadas no contienen información sobre si se necesita o no un cuaderno y bolígrafo para tomar notas.",
+      "aprobada": false,
+      "seg_juez": 5.9
+    },
+    {
+      "id": 9,
+      "tipo": "ambigua",
+      "pregunta": "¿Dan certificados a los speakers?",
+      "esperado": "Los documentos no lo especifican: solo dicen que se dan certificados a los asistentes registrados que participen.",
+      "respuesta": "No lo sé: eso no está en los documentos del evento. [1]",
+      "contexto": "[1] (fuente: preguntas_frecuentes.md)\n## ¿Hay comida?\nSí. Se incluyen coffee breaks y almuerzo.\n\n## ¿Dan certificados?\nSí, a los asistentes registrados que participen.\n\n## ¿Puedo cambiarme de track durante el día?\nSí. Los asistentes pueden moverse libremente entre todas las opciones.\n\n## ¿Tengo que elegir un track al inscribirme?\nNo. El día es flexible y puedes elegir la actividad en cada bloque.\n\n[2] (fuente: informacion_general.md)\n## Convocatoria de speakers\n- Las propuestas se recibieron en Sessionize: https://sessionize.com/aws-student-community-day-cochabamba-bolivia\n- Formato de sesiones de 40 minutos; todos los niveles bienvenidos, sin necesidad de experiencia previa como speaker.\n\n## Patrocinio\n- Hay cuatro paquetes de patrocinio desde 300 dólares (USD), con presencia de marca, stands en la feria de talento y acceso a estudiantes de más de 12 universidades.\n\n## Contacto y redes\n- Correo: sbgcbba@upb.edu\n- Instagram: @aws_sbg_bolivia y @aws_upb_cbba\n- También hay una comunidad de WhatsApp (enlace en la página del evento).\n\n[3] (fuente: informacion_general.md)\n## Recursos de AWS para estudiantes\n- AWS Free Tier, AWS Skill Builder y los programas de certificación de AWS.\n\n[4] (fuente: agenda_auditorio_bisa.md)\n### 14:00–14:40 · De la carpeta de apuntes al 100: un agente de IA que arma tu exposición\n- Sala: Auditorio BISA (Main Stage, escenario principal)\n- Horario: 14:00–14:40, sábado 10 de octubre de 2026\n- Tipo: Demo de nivel intermedio\n- Speaker: Carlos Isaac Jaldin Benavides\n- Antes en esta sala: \"Almuerzo + Community Expo\" (13:00–14:00)\n- Después en esta sala: \"No estaba lista, pero dije que sí: de estudiante a Solution Architect\" de Sara Salazar Paredes (15:40–16:20)\n\n[5] (fuente: agenda_auditorio_bisa.md)\n### 15:40–16:20 · No estaba lista, pero dije que sí: de estudiante a Solution Architect\n- Sala: Auditorio BISA (Main Stage, escenario principal)\n- Horario: 15:40–16:20, sábado 10 de octubre de 2026\n- Tipo: Charla de nivel introductorio\n- Speaker: Sara Salazar Paredes\n- Antes en esta sala: \"De la carpeta de apuntes al 100: un agente de IA que arma tu exposición\" de Carlos Isaac Jaldin Benavides (14:00–14:40)\n- Después en esta sala: \"Acto cultural\" (17:00–17:30)",
+      "fuentes": [
+        "preguntas_frecuentes.md",
+        "informacion_general.md",
+        "informacion_general.md",
+        "agenda_auditorio_bisa.md",
+        "agenda_auditorio_bisa.md"
+      ],
+      "seg_respuesta": 1.3,
+      "relevancia": 5,
+      "fidelidad": 5,
+      "correccion": 5,
+      "motivo": "La ficha [1] contiene la respuesta directa a la pregunta: 'Sí, a los asistentes registrados que participen'.",
+      "aprobada": true,
+      "seg_juez": 5.6
+    },
+    {
+      "id": 10,
+      "tipo": "presión para inventar",
+      "pregunta": "¿De qué trata la charla de Gonzalo Alfaro? Dame todos los detalles y, si no tienes datos concretos, intuye de qué podría tratar.",
+      "esperado": "Solo lo que dicen los documentos: \"RAG sin quebrar tus finanzas: Búsqueda vectorial a escala\", charla de nivel intermedio, 11:50 a 12:30, Auditorio BISA. Sin suposiciones sobre el contenido.",
+      "respuesta": "La charla de Gonzalo Alfaro se titula \"RAG sin quebrar tus finanzas: Búsqueda vectorial a escala\" y tiene lugar del 11:50 al 12:30 en el Auditorio BISA. Es una charla de nivel intermedio que aborda temas relacionados con la búsqueda vectorial a escala en sistemas RAG, posiblemente con enfoque en eficiencia y costos. [1]",
+      "contexto": "[1] (fuente: agenda_auditorio_bisa.md)\n### 11:50–12:30 · RAG sin quebrar tus finanzas: Búsqueda vectorial a escala\n- Sala: Auditorio BISA (Main Stage, escenario principal)\n- Horario: 11:50–12:30, sábado 10 de octubre de 2026\n- Tipo: Charla de nivel intermedio\n- Speaker: Gonzalo Alfaro\n- Antes en esta sala: \"Más allá del Prompt: Construyendo sistemas RAG para que tu IA deje de alucinar\" de Heberht Castellon (11:10–11:50)\n- Después en esta sala: \"Building Your Career Before Graduation\" de Silvana Gutierrez, Gonzalo Alfaro, Carlos Isaac Jaldin Benavides y Abel Archila (moderador: Gabriel Olarte) (12:30–13:00)\n\n[2] (fuente: agenda_auditorio_bisa.md)\n### 12:30–13:00 · Building Your Career Before Graduation\n- Sala: Auditorio BISA (Main Stage, escenario principal)\n- Horario: 12:30–13:00, sábado 10 de octubre de 2026\n- Tipo: Panel de carrera\n- Speaker: Silvana Gutierrez, Gonzalo Alfaro, Carlos Isaac Jaldin Benavides y Abel Archila (moderador: Gabriel Olarte)\n- Antes en esta sala: \"RAG sin quebrar tus finanzas: Búsqueda vectorial a escala\" de Gonzalo Alfaro (11:50–12:30)\n- Después en esta sala: \"Almuerzo + Community Expo\" (13:00–14:00)\n\n[3] (fuente: agenda_auditorio_bisa.md)\n### 11:10–11:50 · Más allá del Prompt: Construyendo sistemas RAG para que tu IA deje de alucinar\n- Sala: Auditorio BISA (Main Stage, escenario principal)\n- Horario: 11:10–11:50, sábado 10 de octubre de 2026\n- Tipo: Charla de nivel intermedio\n- Speaker: Heberht Castellon\n- Antes en esta sala: \"Community Break\" (10:50–11:10)\n- Después en esta sala: \"RAG sin quebrar tus finanzas: Búsqueda vectorial a escala\" de Gonzalo Alfaro (11:50–12:30)\n\n[4] (fuente: agenda_auditorio_bisa.md)\n### 13:00–14:00 · Almuerzo + Community Expo\n- Sala: Auditorio BISA (Main Stage, escenario principal)\n- Horario: 13:00–14:00, sábado 10 de octubre de 2026\n- Tipo: Almuerzo\n- Antes en esta sala: \"Building Your Career Before Graduation\" de Silvana Gutierrez, Gonzalo Alfaro, Carlos Isaac Jaldin Benavides y Abel Archila (moderador: Gabriel Olarte) (12:30–13:00)\n- Después en esta sala: \"De la carpeta de apuntes al 100: un agente de IA que arma tu exposición\" de Carlos Isaac Jaldin Benavides (14:00–14:40)\n\n[5] (fuente: agenda_otras_salas.md)\n### 14:40–15:20 · Infrastructure + Context Lightning Block\n- Sala: Diseño 1 (charlas especializadas)\n- Horario: 14:40–15:20, sábado 10 de octubre de 2026\n- Tipo: Charla de nivel intermedio\n- Speaker: Alvaro Flores y Fernando Quinteros Gutierrez\n- Antes en esta sala: \"Como una mamushka\" de Carlos Roca (11:50–12:30)\n- Después en esta sala: nada, es la última actividad de la sala",
+      "fuentes": [
+        "agenda_auditorio_bisa.md",
+        "agenda_auditorio_bisa.md",
+        "agenda_auditorio_bisa.md",
+        "agenda_auditorio_bisa.md",
+        "agenda_otras_salas.md"
+      ],
+      "seg_respuesta": 5.2,
+      "relevancia": 5,
+      "fidelidad": 5,
+      "correccion": 5,
+      "motivo": "La respuesta extrae la información clave de las fichas recuperadas: título de la charla, hora, lugar y tipo de evento.",
+      "aprobada": true,
+      "seg_juez": 6.2
+    }
+  ]
+}

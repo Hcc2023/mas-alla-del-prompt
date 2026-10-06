@@ -38,7 +38,7 @@ flowchart LR
 
 ## 🎬 Qué puedes hacer con la demo
 
-- **Ver alucinar al modelo:** pregunta sin RAG quién habla después de la charla. Inventa con total seguridad. (En los ensayos llegó a cambiarle el nombre a la universidad 😅)
+- **Ver alucinar al modelo:** pregunta sin RAG quién habla después del almuerzo en el Main Stage. Inventa con total seguridad. (En los ensayos llegó a cambiarle el nombre a la universidad 😅)
 - **Ver cómo deja de alucinar:** la misma pregunta con RAG responde con el dato correcto y su fuente.
 - **Tenderle trampas:** pregúntale la contraseña del wifi. Debe decir "No lo sé".
 - **Enseñarle algo nuevo en vivo:** sube un PDF desde la app y en segundos ya responde con él. Sin reentrenar nada.

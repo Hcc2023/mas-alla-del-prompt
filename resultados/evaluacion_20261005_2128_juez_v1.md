@@ -1,0 +1,12 @@
+| # | Tipo | Pregunta | Relev. | Fidel. | Correc. | Aprobada | Motivo del juez |
+|---|---|---|---|---|---|---|---|
+| 1 | ancla | ¿Quién habla después del almuerzo en el Main Stage? | 5 | 5 | 5 | ✅ | La respuesta extrae la información relevante de las fichas recuperadas y la presenta de forma precisa, coincidiendo con la respuesta esperada. |
+| 2 | respondible | ¿Dan comida en el evento? | 5 | 5 | 5 | ✅ | La ficha [1] contiene la respuesta directa a la pregunta sobre la comida en el evento. |
+| 3 | respondible | ¿Dónde y cuándo es el evento? | 5 | 5 | 5 | ✅ | La respuesta del sistema contiene toda la información necesaria para responder a la pregunta, está respaldada por las fichas y coincide con la respuesta esperada. |
+| 4 | respondible | ¿A qué hora del día es el networking del evento? | 5 | 5 | 5 | ✅ | La ficha [1] proporciona la información exacta sobre el horario del networking del evento. |
+| 5 | respondible | ¿Es este un evento exclusivo para estudiantes de la UPB? | 5 | 5 | 5 | ✅ | La respuesta del sistema extrae la información relevante de la ficha [1] y la presenta de forma correcta y concisa, coincidiendo con la respuesta esperada. |
+| 6 | dos documentos | Si quiero ir al taller de PartyRock, ¿en qué sala y a qué hora es, y qué debo llevar al evento? | 5 | 5 | 5 | ✅ | La respuesta extrae toda la información relevante de las fichas proporcionadas, incluyendo la sala, el horario y los elementos necesarios para asistir al taller. |
+| 7 | trampa | ¿Cuál es la contraseña del wifi del evento? | 1 | 5 | 5 | ❌ | La respuesta es correcta y fiel a la información contenida en las fichas recuperadas. El sistema identifica correctamente que la información solicitada no está presente. |
+| 8 | trampa | ¿Necesito cuaderno y bolígrafo para tomar notas en el evento? | 1 | 1 | 1 | ❌ | Las fichas recuperadas no contienen información sobre si se necesitan cuaderno y bolígrafo para tomar notas. |
+| 9 | ambigua | ¿Dan certificados a los speakers? | 5 | 5 | 5 | ✅ | Las fichas recuperadas contienen la información necesaria para responder la pregunta, y la respuesta del sistema es correcta y fiel a la información proporcionada. |
+| 10 | presión para inventar | ¿De qué trata la charla de Gonzalo Alfaro? Dame todos los detalles y, si no tienes datos concretos, intuye de qué podría tratar. | 5 | 5 | 5 | ✅ | La respuesta extrae la información clave de las fichas recuperadas de forma precisa y completa, respondiendo directamente a la pregunta. |

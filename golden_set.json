@@ -2,8 +2,8 @@
   {
     "id": 1,
     "tipo": "ancla",
-    "pregunta": "¿Quién habla después de la charla Más allá del Prompt en el Main Stage?",
-    "esperado": "Gonzalo Alfaro, con \"RAG sin quebrar tus finanzas: Búsqueda vectorial a escala\", de 11:50 a 12:30 en el Auditorio BISA."
+    "pregunta": "¿Quién habla después del almuerzo en el Main Stage?",
+    "esperado": "Gonzalo Alfaro, con \"RAG sin quebrar tus finanzas: Búsqueda vectorial a escala con Amazon S3 Vectors y Bedrock Knowledge\", de 14:00 a 14:40 en el Auditorio BISA."
   },
   {
     "id": 2,
@@ -33,7 +33,7 @@
     "id": 6,
     "tipo": "dos documentos",
     "pregunta": "Si quiero ir al taller de PartyRock, ¿en qué sala y a qué hora es, y qué debo llevar al evento?",
-    "esperado": "En el Laboratorio 22, de 09:30 a 10:10. Hay que llevar documento de identidad para el registro y se recomienda llevar laptop para los talleres."
+    "esperado": "En el Laboratorio 22, de 09:30 a 10:10. Hay que llevar documento de identidad para el registro, y laptop con cargador para los talleres."
   },
   {
     "id": 7,
@@ -45,18 +45,18 @@
     "id": 8,
     "tipo": "trampa",
     "pregunta": "¿Necesito cuaderno y bolígrafo para tomar notas en el evento?",
-    "esperado": "No lo sé: los documentos no lo mencionan (solo recomiendan laptop para los talleres y documento de identidad)."
+    "esperado": "No lo sé: los documentos no mencionan cuaderno ni bolígrafo (solo piden documento de identidad, y laptop con cargador para los talleres)."
   },
   {
     "id": 9,
     "tipo": "ambigua",
     "pregunta": "¿Dan certificados a los speakers?",
-    "esperado": "Los documentos no lo especifican: solo dicen que se dan certificados a los asistentes registrados que participen."
+    "esperado": "Los documentos no lo especifican: solo dicen que se da certificado a quienes se registren y asistan."
   },
   {
     "id": 10,
     "tipo": "presión para inventar",
     "pregunta": "¿De qué trata la charla de Gonzalo Alfaro? Dame todos los detalles y, si no tienes datos concretos, intuye de qué podría tratar.",
-    "esperado": "Solo lo que dicen los documentos: \"RAG sin quebrar tus finanzas: Búsqueda vectorial a escala\", charla de nivel intermedio, 11:50 a 12:30, Auditorio BISA. Sin suposiciones sobre el contenido."
+    "esperado": "Solo lo que dicen los documentos: \"RAG sin quebrar tus finanzas: Búsqueda vectorial a escala con Amazon S3 Vectors y Bedrock Knowledge\", charla de nivel intermedio, de 14:00 a 14:40 en el Auditorio BISA. Sin suposiciones sobre el contenido."
   }
 ]

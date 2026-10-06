@@ -1,7 +1,7 @@
 """Prueba en terminal (y respaldo de la demo): la misma pregunta SIN y CON RAG.
 
 Uso:
-    python preguntar.py "¿Quién habla después de Más allá del Prompt en el Main Stage?"
+    python preguntar.py "¿Quién habla después del almuerzo en el Main Stage?"
     python preguntar.py --solo-rag "..."
 """
 import argparse

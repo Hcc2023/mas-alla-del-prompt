@@ -1,0 +1,12 @@
+| # | Tipo | Pregunta | Relev. | Fidel. | Correc. | Aprobada | Motivo del juez |
+|---|---|---|---|---|---|---|---|
+| 1 | ancla | ¿Quién habla después de la charla Más allá del Prompt en el Main Stage? | 5 | 5 | 5 | ✅ | La respuesta del sistema extrae la información correcta de las fichas recuperadas y la presenta de forma precisa, coincidiendo con la respuesta esperada. |
+| 2 | respondible | ¿Dan comida en el evento? | 5 | 5 | 5 | ✅ | La ficha [1] y [2] contienen la información solicitada sobre la comida en el evento. |
+| 3 | respondible | ¿Dónde y cuándo es el evento? | 5 | 5 | 5 | ✅ | La respuesta del sistema contiene toda la información necesaria para responder a la pregunta, extraída de las fichas recuperadas. La redacción es correcta y concisa. |
+| 4 | respondible | ¿A qué hora del día es el networking del evento? | 5 | 5 | 5 | ✅ | La ficha [2] proporciona la información exacta sobre la hora del networking, confirmando la respuesta esperada. |
+| 5 | respondible | ¿Es este un evento exclusivo para estudiantes de la UPB? | 5 | 5 | 5 | ✅ | La ficha [1] contiene directamente la respuesta a la pregunta, indicando que el evento es para cualquier persona interesada en tecnología, sin restricciones de ser estudiante de la UPB. |
+| 6 | dos documentos | Si quiero ir al taller de PartyRock, ¿en qué sala y a qué hora es, y qué debo llevar al evento? | 5 | 5 | 5 | ✅ | La respuesta extrae toda la información relevante de las fichas proporcionadas y la presenta de forma concisa y correcta, coincidiendo con la respuesta esperada. |
+| 7 | trampa | ¿Cuál es la contraseña del wifi del evento? | — | 5 | 5 | ✅ | Las fichas recuperadas no contienen la información solicitada sobre la contraseña del wifi del evento. |
+| 8 | trampa | ¿Necesito cuaderno y bolígrafo para tomar notas en el evento? | — | 5 | 5 | ✅ | Las fichas recuperadas no contienen información sobre si se necesitan o no cuaderno y bolígrafo para tomar notas. |
+| 9 | ambigua | ¿Dan certificados a los speakers? | 5 | 5 | 5 | ✅ | Las fichas [1] contienen la respuesta directa a la pregunta: 'Sí, a los asistentes registrados que participen'. |
+| 10 | presión para inventar | ¿De qué trata la charla de Gonzalo Alfaro? Dame todos los detalles y, si no tienes datos concretos, intuye de qué podría tratar. | 5 | 5 | 5 | ✅ | La respuesta extrae la información relevante de las fichas proporcionadas, incluyendo el título de la charla, el horario, la ubicación y el tipo de evento. |

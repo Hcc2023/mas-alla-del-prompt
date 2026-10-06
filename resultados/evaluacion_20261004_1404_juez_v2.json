@@ -1,0 +1,51 @@
+{
+  "generador": "qwen3:4b-instruct",
+  "juez": "gemma3:4b",
+  "version_juez": 2,
+  "casos": [
+    {
+      "id": 7,
+      "tipo": "trampa",
+      "pregunta": "¿Cuál es la contraseña del wifi del evento?",
+      "esperado": "No lo sé: no está en los documentos del evento.",
+      "respuesta": "No lo sé: eso no está en los documentos del evento.",
+      "contexto": "[1] (fuente: informacion_general.md)\n## Resumen del día\n- 08:00: registro y Community Expo.\n- 09:30: comienzan las sesiones presenciales y virtuales.\n- 12:30: panel de carrera.\n- 13:00: almuerzo y Community Expo.\n- 16:00: transición cultural.\n- 17:00: acto cultural y cierre.\n\n## Salas del evento\n- Auditorio BISA: Main Stage o escenario principal.\n- Salón Gessell: escenario secundario.\n- Arquitectura 1 y Diseño 1: charlas especializadas.\n- Laboratorio 29: modalidad BYOD (trae tu propia laptop).\n- Laboratorio 22: laboratorio con computadoras.\n- Virtual: sesiones transmitidas en línea.\n\n[2] (fuente: informacion_general.md)\n## Registro e inscripción\n- La entrada es gratuita.\n- El registro es obligatorio y el cupo es limitado.\n- La inscripción se hace en la plataforma Luma: https://luma.com/r65j1ukn\n- Qué llevar: documento de identidad para el registro; se recomienda llevar laptop para los talleres.\n\n## Tracks o áreas de contenido\nEl evento tiene tres tracks técnicos en paralelo y dos laboratorios prácticos:\n1. Inteligencia Artificial: machine learning, agentes, IA generativa y MLOps.\n2. Cloud: arquitectura, serverless, DevOps y observabilidad.\n3. Ciberseguridad: AppSec, seguridad en la nube, red team e identidad.\n4. Laboratorio 1: práctica guiada.\n5. Laboratorio 2: práctica guiada en paralelo.\n\n[3] (fuente: informacion_general.md)\n## Convocatoria de speakers\n- Las propuestas se recibieron en Sessionize: https://sessionize.com/aws-student-community-day-cochabamba-bolivia\n- Formato de sesiones de 40 minutos; todos los niveles bienvenidos, sin necesidad de experiencia previa como speaker.\n\n## Patrocinio\n- Hay cuatro paquetes de patrocinio desde 300 dólares (USD), con presencia de marca, stands en la feria de talento y acceso a estudiantes de más de 12 universidades.\n\n## Contacto y redes\n- Correo: sbgcbba@upb.edu\n- Instagram: @aws_sbg_bolivia y @aws_upb_cbba\n- También hay una comunidad de WhatsApp (enlace en la página del evento).\n\n[4] (fuente: preguntas_frecuentes.md)\n# Preguntas frecuentes del AWS Student Community Day Cochabamba 2026\n\nFuente: https://studentcommunity.day/ (consultada el 3 de octubre de 2026).\n\n## ¿Qué es el Student Community Day?\nEs un evento de un día, gratuito y liderado por estudiantes, respaldado por AWS.\n\n## ¿Quién puede asistir?\nCualquier persona interesada en tecnología. No hace falta experiencia previa ni ser estudiante de la UPB.\n\n## ¿Es gratis?\nSí, la entrada es gratuita, pero el registro es obligatorio.\n\n## ¿En qué idioma son las sesiones?\nLa mayoría en español. Algunas sesiones son en inglés y están marcadas en la agenda.\n\n## ¿Hay comida?\nSí. Se incluyen coffee breaks y almuerzo.\n\n[5] (fuente: informacion_general.md)\n# Información general del AWS Student Community Day Cochabamba 2026\n\nFuente: https://studentcommunity.day/ (consultada el 3 de octubre de 2026).\n\n## Fecha, horario y lugar\n- Evento: AWS Student Community Day Cochabamba 2026.\n- Fecha: sábado 10 de octubre de 2026.\n- Horario: de 08:00 a 18:00.\n- Lugar: Universidad Privada Boliviana (UPB), Av. Juan Pablo II, Colcapirhua, Cochabamba, Bolivia.\n\n## Organizadores\n- Organiza el AWS Student Builder Group de la UPB Cochabamba.\n- La Universidad Privada Boliviana (UPB) es la sede anfitriona.\n- El evento cuenta con el respaldo de Amazon Web Services (AWS).",
+      "fuentes": [
+        "informacion_general.md",
+        "informacion_general.md",
+        "informacion_general.md",
+        "preguntas_frecuentes.md",
+        "informacion_general.md"
+      ],
+      "seg_respuesta": 14.4,
+      "relevancia": null,
+      "fidelidad": 5,
+      "correccion": 5,
+      "motivo": "Las fichas recuperadas no contienen la información solicitada sobre la contraseña del wifi del evento.",
+      "aprobada": true,
+      "seg_juez": 17.9
+    },
+    {
+      "id": 8,
+      "tipo": "trampa",
+      "pregunta": "¿Necesito cuaderno y bolígrafo para tomar notas en el evento?",
+      "esperado": "No lo sé: los documentos no lo mencionan (solo recomiendan laptop para los talleres y documento de identidad).",
+      "respuesta": "No lo sé: eso no está en los documentos del evento.",
+      "contexto": "[1] (fuente: informacion_general.md)\n## Resumen del día\n- 08:00: registro y Community Expo.\n- 09:30: comienzan las sesiones presenciales y virtuales.\n- 12:30: panel de carrera.\n- 13:00: almuerzo y Community Expo.\n- 16:00: transición cultural.\n- 17:00: acto cultural y cierre.\n\n## Salas del evento\n- Auditorio BISA: Main Stage o escenario principal.\n- Salón Gessell: escenario secundario.\n- Arquitectura 1 y Diseño 1: charlas especializadas.\n- Laboratorio 29: modalidad BYOD (trae tu propia laptop).\n- Laboratorio 22: laboratorio con computadoras.\n- Virtual: sesiones transmitidas en línea.\n\n[2] (fuente: informacion_general.md)\n## Registro e inscripción\n- La entrada es gratuita.\n- El registro es obligatorio y el cupo es limitado.\n- La inscripción se hace en la plataforma Luma: https://luma.com/r65j1ukn\n- Qué llevar: documento de identidad para el registro; se recomienda llevar laptop para los talleres.\n\n## Tracks o áreas de contenido\nEl evento tiene tres tracks técnicos en paralelo y dos laboratorios prácticos:\n1. Inteligencia Artificial: machine learning, agentes, IA generativa y MLOps.\n2. Cloud: arquitectura, serverless, DevOps y observabilidad.\n3. Ciberseguridad: AppSec, seguridad en la nube, red team e identidad.\n4. Laboratorio 1: práctica guiada.\n5. Laboratorio 2: práctica guiada en paralelo.\n\n[3] (fuente: informacion_general.md)\n## Convocatoria de speakers\n- Las propuestas se recibieron en Sessionize: https://sessionize.com/aws-student-community-day-cochabamba-bolivia\n- Formato de sesiones de 40 minutos; todos los niveles bienvenidos, sin necesidad de experiencia previa como speaker.\n\n## Patrocinio\n- Hay cuatro paquetes de patrocinio desde 300 dólares (USD), con presencia de marca, stands en la feria de talento y acceso a estudiantes de más de 12 universidades.\n\n## Contacto y redes\n- Correo: sbgcbba@upb.edu\n- Instagram: @aws_sbg_bolivia y @aws_upb_cbba\n- También hay una comunidad de WhatsApp (enlace en la página del evento).\n\n[4] (fuente: preguntas_frecuentes.md)\n# Preguntas frecuentes del AWS Student Community Day Cochabamba 2026\n\nFuente: https://studentcommunity.day/ (consultada el 3 de octubre de 2026).\n\n## ¿Qué es el Student Community Day?\nEs un evento de un día, gratuito y liderado por estudiantes, respaldado por AWS.\n\n## ¿Quién puede asistir?\nCualquier persona interesada en tecnología. No hace falta experiencia previa ni ser estudiante de la UPB.\n\n## ¿Es gratis?\nSí, la entrada es gratuita, pero el registro es obligatorio.\n\n## ¿En qué idioma son las sesiones?\nLa mayoría en español. Algunas sesiones son en inglés y están marcadas en la agenda.\n\n## ¿Hay comida?\nSí. Se incluyen coffee breaks y almuerzo.\n\n[5] (fuente: preguntas_frecuentes.md)\n## ¿Hay comida?\nSí. Se incluyen coffee breaks y almuerzo.\n\n## ¿Dan certificados?\nSí, a los asistentes registrados que participen.\n\n## ¿Puedo cambiarme de track durante el día?\nSí. Los asistentes pueden moverse libremente entre todas las opciones.\n\n## ¿Tengo que elegir un track al inscribirme?\nNo. El día es flexible y puedes elegir la actividad en cada bloque.",
+      "fuentes": [
+        "informacion_general.md",
+        "informacion_general.md",
+        "informacion_general.md",
+        "preguntas_frecuentes.md",
+        "preguntas_frecuentes.md"
+      ],
+      "seg_respuesta": 2.4,
+      "relevancia": null,
+      "fidelidad": 5,
+      "correccion": 5,
+      "motivo": "Las fichas recuperadas no contienen información sobre si se necesitan o no cuaderno y bolígrafo para tomar notas.",
+      "aprobada": true,
+      "seg_juez": 5.8
+    }
+  ]
+}
